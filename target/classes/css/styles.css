@@ -1,0 +1,81 @@
+
+.menu{
+    -fx-background-color: #353A56;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+}
+.titre{
+    -fx-font-size: 1.5em;
+    -fx-text-fill: #D7BDE2;
+    -fx-arc-width: blod;
+    -fx-display-caret: centre;
+    -fx-background-color: E0A3F6FF;
+}
+.inner_pane{
+    -fx-background-color: #e0a3f6;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+}
+.orderly {
+    -fx-font-family: 'Arial', sans-serif;
+    -fx-font-size: 30px;
+    -fx-color-label-visible: #ff6600; /* Orange color */
+    -fx-text-transform: uppercase;
+    -fx-letter-spacing: 2px;
+}
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 7,0,0,0);
+}
+.white-bg{
+    -fx-background-color: #fff;
+    -fx-background-radius: 8px;
+}
+.welcome-section {
+    -fx-background-color: #f0f0f0; /* Background color */
+    -fx-padding: 50px; /* Padding around the text */
+    -fx-text-align: center; /* Center align text */
+}
+
+.style {
+    -fx-color: #333; /* Text color */
+    -fx-font-size: 36px; /* Font size */
+    -fx-font-weight: bold; /* Bold font weight */
+    -fx-text-transform: uppercase; /* Uppercase text */
+}
+.form_container {
+    -fx-background-color: #BB8FCE;
+}
+.form_container Text{
+    -fx-font-size: 1.2em;
+    -fx-fill: #888888;
+}
+.form_container Vbox{
+    -fx-border-image-width:  0 0 0 1;
+    -fx-background-color: #000000;
+    -fx-padding:  10;
+    -fx-spacing: 15;
+}
+.form_container TextField{
+    -fx-pref-height: 250;
+    -fx-background-color: #FFFFFF;
+    -fx-font-size: 1.3em;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3,0,0,3);
+}
+.form_container Button{
+    -fx-background-color: linear-gradient(to right,#FFFFFF, #D2B4DE);
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3,0,0,3);
+    -fx-pref-width: 100;
+    -fx-font-size: 1.5em;
+    -fx-font-family: "Calibri Light" ;
+    -fx-text-fill: #FFFFFF;
+}
+.form_container Button:hover{
+    -fx-cursor: hand;
+}
+
+
+

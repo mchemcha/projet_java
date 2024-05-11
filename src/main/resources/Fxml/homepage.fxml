@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" stylesheets="@../css/styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.melocode.projetjava.homepageController">
+   <children>
+      <VBox prefHeight="501.0" prefWidth="261.0">
+         <children>
+            <AnchorPane prefHeight="503.0" prefWidth="261.0" style="-fx-background-color: #6C3483;">
+               <children>
+                  <Pane layoutX="31.0" layoutY="67.0" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #D7BDE2;" styleClass="inner_pane">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #D7BDE2;" styleClass="inner_pane" text="HOME" />
+                        <ImageView fitHeight="40.0" fitWidth="43.0" layoutX="14.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/home.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="31.0" layoutY="133.0" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #D7BDE2;" styleClass="inner_pane">
+                     <children>
+                        <Button fx:id="clients" mnemonicParsing="false" onAction="#handleClientsButtonClick" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #D7BDE2;" styleClass="inner_pane" text="CLIENTS" />
+                        <ImageView fitHeight="40.0" fitWidth="43.0" layoutX="14.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/clients.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="31.0" layoutY="193.0" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #D7BDE2;" styleClass="inner_pane">
+                     <children>
+                        <Button fx:id="produits" mnemonicParsing="false" onAction="#handleproduitButtonClick" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #D7BDE2;" styleClass="inner_pane" text="PRODUITS" />
+
+                        <ImageView fitHeight="40.0" fitWidth="43.0" layoutX="14.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/produit.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="31.0" layoutY="261.0" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #D7BDE2;" styleClass="inner_pane">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #D7BDE2;" styleClass="inner_pane" text="COMMANDES" />
+                        <ImageView fitHeight="40.0" fitWidth="43.0" layoutX="7.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/commande.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="31.0" layoutY="325.0" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #D7BDE2;" styleClass="inner_pane">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #D7BDE2;" styleClass="inner_pane" text="FACTURES" />
+                        <ImageView fitHeight="40.0" fitWidth="43.0" layoutX="9.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/facture.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="31.0" layoutY="390.0" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #D7BDE2;" styleClass="inner_pane">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #D7BDE2;" styleClass="inner_pane" text="LIVRAISONS" />
+                        <ImageView fitHeight="40.0" fitWidth="54.0" layoutX="8.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/livraison.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="31.0" layoutY="8.0" prefHeight="50.0" prefWidth="200.0">
+                     <children>
+                        <Text layoutX="64.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="style" text="Orderly" />
+                        <ImageView fitHeight="50.0" fitWidth="54.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true" styleClass="shadow">
+                           <image>
+                              <Image url="@icon/logo.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="48.0" layoutY="436.0" prefHeight="31.0" prefWidth="129.0" />
+                  <AnchorPane layoutX="109.0" layoutY="450.0" prefHeight="40.0" prefWidth="61.0">
+                     <children>
+                        <Button layoutY="14.0" minHeight="21.0" minWidth="29.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="26.0" style="-fx-background-color: #6C3483;" />
+                        <ImageView fitHeight="21.0" fitWidth="26.0" layoutX="17.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/logout.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <Pane layoutX="261.0" prefHeight="501.0" prefWidth="439.0" style="-fx-background-color: #EBDEF0;">
+         <children>
+            <Pane prefHeight="40.0" prefWidth="439.0" style="-fx-background-color: #6C3483;" />
+            <ImageView fitHeight="148.0" fitWidth="334.0" layoutX="72.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon/img.jpeg" />
+               </image>
+               <styleClass>
+                  <String fx:value="shadow" />
+                  <String fx:value="white-bg" />
+               </styleClass>
+            </ImageView>
+            <Pane layoutX="62.0" layoutY="50.0" prefHeight="40.0" prefWidth="334.0">
+               <children>
+                  <Text layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="style" text="Welcome to our site" />
+               </children>
+            </Pane>
+            <Pane layoutX="235.0" layoutY="261.0" prefHeight="217.0" prefWidth="179.0" style="-fx-background-color: #EBDEF0;">
+               <styleClass>
+                  <String fx:value="white-bg" />
+                  <String fx:value="shadow" />
+               </styleClass>
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="15.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icon/g-t.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="61.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="End-to-end tracking" />
+                  <TextArea layoutX="5.0" layoutY="68.0" prefHeight="105.0" prefWidth="170.0" text="Track every item &#10;or batch in your&#10; inventory with serial&#10; number and batch &#10;tracking feature" />
+               </children>
+            </Pane>
+            <Pane layoutX="33.0" layoutY="261.0" prefHeight="217.0" prefWidth="179.0" style="-fx-background-color: #EBDEF0;">
+               <styleClass>
+                  <String fx:value="white-bg" />
+                  <String fx:value="shadow" />
+               </styleClass>
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icon/g_c.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="60.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage orders" />
+                  <TextArea layoutX="5.0" layoutY="64.0" prefHeight="105.0" prefWidth="170.0" text="Manage your offline &#10;and online orders &#10;with our &#10;efficient order &#10;management system" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
